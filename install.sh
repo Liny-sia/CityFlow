@@ -20,6 +20,7 @@ if [ ! -d "$CONDA_DIR" ]; then
   ln -sf "$CONDA_DIR/etc/profile.d/conda.sh" "$HOME/.conda_init.sh"
   echo ". $HOME/.conda_init.sh" >> ~/.bashrc
   echo "export PATH=\"$CONDA_DIR/bin:\$PATH\"" >> ~/.bashrc
+  echo "export LD_PRELOAD=/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libstdc++.so.6" >> ~/.bashrc
 else
   echo "Miniconda already installed at $CONDA_DIR"
 fi
