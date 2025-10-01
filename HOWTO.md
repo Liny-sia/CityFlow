@@ -6,6 +6,7 @@
 
 ## 2. SSH to EC2 and run jupyter notebook in `EC2 server`
 
+```vim ~/.ssh/authorized_keys```
 
 ```ssh aws-server```
 
