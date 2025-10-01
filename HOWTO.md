@@ -1,27 +1,22 @@
 # How to start working with this repo?
 
-## 1. SSH to EC2
-
-```ssh aws-server```
-
-## 2. Proxy that EC2 in `local computer`
+## 1. Proxy that EC2 in `local computer`
 
 ```ssh -N -f -L 8888:localhost:8888 aws-server```
 
+## 2. SSH to EC2 and run jupyter notebook in `EC2 server`
 
-## 3. Run jupyter notebook in `EC2 server`
 
-```cd CityFlow```
+```ssh aws-server```
 
 ```jupyter notebook --no-browser --port=8888```
 
+Open the URL given by the jupyter notebook command  
 
-## 4. Open the jupyter url that we receive from previous step 
-
-This is the URL that you have to click ```http://localhost:8888/?token=...```, find it inside the terminal once you run the jupyter notebook
-
+The URL will be something like ```http://localhost:8888/?token=...```
 
 
+---
 
 # Installation
 
