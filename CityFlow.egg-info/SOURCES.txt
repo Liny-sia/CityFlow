@@ -1,3 +1,4 @@
+LICENSE.txt
 README.rst
 setup.py
 CityFlow.egg-info/PKG-INFO
