@@ -3,12 +3,12 @@
 	"seed": 0,
 	"dir": "config/",
 	"roadnetFile": "roadnet.json", 
-	"flowFile": "flow.json", 
-	"rlTrafficLight": false,
+	"flowFile": "flow.json",
+        "rlTrafficLight": true,	
 	"laneChange": false,
 	"saveReplay": true,
-	"roadnetLogFile": "../result/replay_roadnet.json",
-	"replayLogFile": "../result/replay.txt",
+	"roadnetLogFile": "../result/replay_roadnet_dqn.json",
+	"replayLogFile": "../result/replay_dqn.txt",
 	"saveLog": true,
 	"logFile": "log.json"
 }
